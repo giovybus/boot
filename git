@@ -1,0 +1,27 @@
+Se si hanno già dei file sorgenti da caricare, basta inserirli con i seguenti comandi:
+
+    git add *
+
+    git commit -m ‘Aggiungo i file sorgenti’
+
+    git push
+
+Adesso tutto quello che bisogna sapere è:
+
+- Ogni volta che si vogliono aggiungere/modificare o rimuovere file dal repository, bisogna farlo rispettivamente con:
+
+    git add ‘nomeFileDaAggiungere.txt’
+
+    git rm ‘nomeFileDaRimuovere.txt’
+
+- Ogni volta che aggiungiamo, rimuoviamo o semplicemente modifichiamo uno o più file, dobbiamo “spedire” le modifiche usando i comandi:
+
+    git commit -m ‘Descrizione della modifica’
+
+    git push
+
+- È possibile dividere diverse modifiche in più commit, e poi spedirle tutte in una volta nel repository tramite il push.
+
+comandi:
+	git push -u origin master
+
